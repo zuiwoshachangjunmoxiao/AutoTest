@@ -1,6 +1,6 @@
-# 测试文件02 
+# git 常用命令
 
-## 中文乱码 
+## clone
 
 git clone ***
 
@@ -13,6 +13,28 @@ git add ***
 git commit -m "****"
 
 git push
+
+git pull
+
+## 创建分支
+
+git branch	查看本地分支
+
+git branch -a 	查看远端的分支
+
+git checkout -b branch1	在本地创建分支branch1
+
+git checkout master	切换到master分支
+
+## 删除分支
+
+git branch -d branch1	删除本地分支branch1，-D 强制删除，一般不强制
+
+git branch -r -d origin/branch1	删除远端分支branch1，此时远端页面上仍然有，还需要push，如下
+
+git push origin :branch1	删除远端分支后，push
+
+## 合并分支
 
 
 
