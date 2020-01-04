@@ -60,7 +60,7 @@ git push	合并分支后，需要push一次
 
 `git reset --hard HEAD^^^`    回退到三个版本，多加一个^，多回退一个版本
 
-`git reflog`    查看分支版本号
+`git reflog`    查看分支版本号，英文状态下按Q退出git reflog，可以继续输入
 
 `git reset --hard f79543a`	回到指定版本号
 
