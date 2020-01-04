@@ -36,5 +36,12 @@ git push origin :branch1	删除远端分支后，push
 
 ## 合并分支
 
+git checkout -b test01	新建01 分支
 
+git add test.txt
 
+git commit -m "增加合并内容"
+
+git push --set-upstream origin test01
+
+1111
