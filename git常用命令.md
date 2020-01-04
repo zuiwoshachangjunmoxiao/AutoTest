@@ -53,3 +53,14 @@ git merge test01	将test01分支合并到当前分支上
 git push	合并分支后，需要push一次
 
 这里是test01分支上的内容。
+
+## 回退版本
+
+`git reset --hard HEAD^`    回退到上一个版本
+
+`git reset --hard HEAD^^^`    回退到三个版本，多加一个^，多回退一个版本
+
+`git reflog`    查看分支版本号
+
+`git reset --hard f79543a`	回到指定版本号
+
