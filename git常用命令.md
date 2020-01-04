@@ -44,6 +44,10 @@ git commit -m "增加合并内容"
 
 git push --set-upstream origin test01
 
-1111
+git checkout master
+
+git merge test01	将test01分支合并到当前分支上
+
+git push	合并分支后，需要push一次
 
 这里是test01分支上的内容。
