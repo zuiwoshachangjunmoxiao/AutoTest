@@ -35,3 +35,4 @@
 3. 重复步骤1，选择 “Rename module”，重命名为“Chapter6”
 4. 修改pom.xml，将`<artifactId>Chapter5</artifactId> ` 修改为 `<artifactId>Chapter6</artifactId>`
 
+1
