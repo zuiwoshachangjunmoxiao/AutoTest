@@ -10,6 +10,8 @@ git status
 
 git add ***
 
+git add .	点 表示add所有修改的文件
+
 git commit -m "****"
 
 git push
