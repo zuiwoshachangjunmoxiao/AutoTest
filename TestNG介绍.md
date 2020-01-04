@@ -20,3 +20,18 @@
 </dependencies>
 ```
 
+## IDEA中新建module
+
+1. 选中项目文件夹——右键——new——module
+2. 在 New Module 窗口中选择 Maven，点击 Next
+3. GroupId 输入：com.course.code
+4. ArtifactId 输入：Chapter5，点击 Next
+5. 点击 Finish
+
+#### 修改module的名字
+
+1. 选中文件夹 Chapter5，右键——refactor——rename
+2. 选择 “Rename directory”，重命名为“Chapter6”
+3. 重复步骤1，选择 “Rename module”，重命名为“Chapter6”
+4. 修改pom.xml，将`<artifactId>Chapter5</artifactId> ` 修改为 `<artifactId>Chapter6</artifactId>`
+
