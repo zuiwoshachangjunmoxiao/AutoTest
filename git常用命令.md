@@ -30,11 +30,11 @@ git checkout master	切换到master分支
 
 ## 删除分支
 
-git branch -d branch1    第一步：删除本地分支branch1，-D 强制删除，一般不强制
+`git branch -d branch1`    第一步：删除本地分支branch1，-D 强制删除，一般不强制
 
-git branch -r -d origin/branch1    第二步：删除远端分支branch1，此时远端页面上仍然有，还需要push
+`git branch -r -d origin/branch1`    第二步：删除远端分支branch1，此时远端页面上仍然有，还需要push
 
-git push origin :branch1    第三步：删除远端分支branch1后，需要push一次
+`git push origin :branch1`    第三步：删除远端分支branch1后，需要push一次
 
 ## 合并分支
 
