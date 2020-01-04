@@ -2,21 +2,21 @@
 
 ## clone
 
-git clone ***
+`git clone https://github.com/zuiwoshachangjunmoxiao/AutoTest.git`
 
-git init
+`git init`
 
-git status
+`git status`
 
-git add ***
+`git add test01.txt`
 
-git add .	点 表示add所有修改的文件
+`git add .`	点 表示add所有修改的文件
 
-git commit -m "****"
+`git commit -m "修改备注"`
 
-git push
+`git push`
 
-git pull
+`git pull`
 
 ## 创建分支
 
