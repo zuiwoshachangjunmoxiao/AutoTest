@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="GroupOnClass_study">
+    <test name="runAll">
+        <classes>
+            <class name="com.course.com.groups.GroupOnClass1"/>
+            <class name="com.course.com.groups.GroupOnClass2"/>
+            <class name="com.course.com.groups.GroupOnClass3"/>
+        </classes>
+
+    </test>
+    <test name="onlyRunStudent">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.com.groups.GroupOnClass1"/>
+            <class name="com.course.com.groups.GroupOnClass2"/>
+            <class name="com.course.com.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+</suite>
